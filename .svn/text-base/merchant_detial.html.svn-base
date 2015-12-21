@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <title>商户详情</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/css" rel="stylesheet" href="style/common.css"/>
+    <link type="text/css" rel="stylesheet" href="style/index.css" />
+</head>
+<body>
+    <div class="title_bar">
+        <a href="" class="icon icon-arrow-left fl"></a>
+        <span class="title">化龙巷美食</span>
+        <a href="" class="icon icon-search fr with-text">搜索</a>
+        <a href="" class="icon icon-person fr with-text">我的</a>
+    </div>
+    <section>
+        <dl class="dl_list clearfix">
+            <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+            <dd>
+                <a href="">
+                    <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                    <p class="newsEvaluate clearfix">
+                        <em class="outerStar"><i class="innerStar w1">&nbsp;</i></em>
+                        <span class="unit_price gc9">人均：106元 </span>
+                    </p>
+                    <p class="newsLabel clearfix">
+                        <span class="fl mr10">口味：8.7</span>
+                        <span class="fl mr10">环境：9.1</span>
+                        <span class="fl">服务：8.7</span>
+                    </p>
+                </a>
+            </dd>
+        </dl>
+        <div class="pay_info">
+            <ul>
+                <li class="clearfix">
+                    <span class="fl tubiao"><span class="icon icon-local"></span>新北区 万达广场  通江中路88号</span>
+                    <span class="fr"><a href="" class="more_btn">&nbsp;<i class="icon-arrow-right icon"></i></a></span>
+                </li>
+                <li class="clearfix">
+                    <span class="fl tubiao"><span class="icon icon-tel"></span>0519-81191977</span>
+                    <span class="fr"><a href="" class="more_btn">&nbsp;<i class="icon-arrow-right icon"></i></a></span>
+                </li>
+            </ul>
+        </div>  
+        <div class="blank10"></div>      
+        <div class="box_t bg_white gc3 border_t border_b">本周五折</div>
+        <div class="gb_list border_b">
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+        </div>
+        <div class="blank10"></div>
+        <div class="box_t gc3 bg_white border_t border_b">商户详情</div>
+        <ul class="merchant_d border_b">
+            <li>菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系：自助餐</li>
+            <li>人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;均：80-120元</li>
+            <li>环&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;境：朋友聚餐 家庭聚餐</li>
+            <li>营业时间：11:00--14:00 ,17:00-21:00</li>
+            <li>交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通：乘坐B1路至通江路太湖东路下，46路、47路到太湖明珠苑下</li>
+        </ul>
+        <div class="blank10"></div>
+        <div class="box_t gc3 bg_white border_t border_b clearfix">评价<a href="" target="_blank" class="more_btn fr">&nbsp;<i class="icon-arrow-right icon"></i></a></div>
+        <div class="comment">
+            <ul>
+                <li>
+                    <p class="gc6">爱丽丝梦游仙境</p>
+                    <p class="gc6">总体评价：<em class="color_o mr5 ml5">好</em>2015-01-15</p>
+                    <p class="comment-content">万达百店同庆来的TVT因为7折啊QAQ人很多，菜品也很多～哈根达斯冰激凌最受杏仁口味最好吃～虽然是海鲜自助TUT可其为懒…<span class="icon icon-arrow-down more-toggle">更多</span></p>
+                    <p class="comment-content hide">万达百店同庆来的TVT因为7折啊QAQ人很多，菜品也很多～哈根达斯冰激凌最受欢迎啦！！杏仁口味最好吃～虽然是海鲜自助TUT可其为懒然是海鲜自助TUT可其为懒然是海鲜自助TUT可其为懒然是海鲜自助TUT可其为懒<span class="icon icon-arrow-up more-toggle">收起</span></p>
+                    <p class="gc6">多伦多海鲜自助餐厅（常州万达店）</p>
+                </li>
+                <li>
+                    <p class="gc6">爱丽丝梦游仙境</p>
+                    <p class="gc6">总体评价：<em class="color_o mr5 ml5">好</em>2015-01-15</p>
+                    <p class="comment-content">万达百店同庆来的TVT因为7折啊QAQ人很多，菜品也很多～哈根欢迎啦！！杏仁口味最好吃T可其他菜也好多～我们因为懒…<span class="icon icon-arrow-down more-toggle">更多</span></p>
+                    <p class="comment-content hide">万达百店同庆来的TVT因为7折啊QAQ人很多，菜品也很多～哈根达斯冰激凌最受欢迎啦！！杏仁口味最好吃T可其他菜也好多～我们因为懒然是海鲜自助TUT可其为懒然是海鲜自助TUT可其为懒然是海鲜自助TUT可其为懒<span class="icon icon-arrow-up more-toggle">收起</span></p>
+                    <p class="gc6">多伦多海鲜自助餐厅（常州万达店）</p>
+                </li>
+            </ul>
+        </div>        
+    </section>
+    <footer>
+        <a href="">登录</a><a href="">注册</a>
+        <ul>
+            <li><a href="">首页</a>|</li>
+            <li><a href="">订单</a>|</li>
+            <li><a href="">客户端</a>|</li>
+            <li><a href="">帮助</a></li>
+        </ul>
+        <p>©2014 化龙巷 苏ICP备06048007号</p>
+    </footer>
+	<script src="js/zepto.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

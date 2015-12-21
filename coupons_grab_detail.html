@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>详情页</title>
+        <meta name="keywords" content="详情页" />
+        <meta name="description" content="详情页" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/swiper.min.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+        <script type="text/javascript" src="js/swiper.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">详情页</span>
+                </div>
+                <a href="coupons_cart.html"><span class="cart icon">&#xe600;<br><s>购物车</s></span></a>
+            </div>
+
+            <section class="banner">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper"> 
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="tags">
+                    <span>满减券</span>
+                </div>
+            </section>
+
+            <div class="time-tool">
+                <div id="warp_content">
+                    <div class="price">
+                        <em>￥</em>38.9
+                    </div>
+                    <div class="infos">
+                        <div class="old-price">￥100</div>
+                        <div class="grab-num">限购3件</div>
+                    </div>
+                </div>
+                <div class="time-end">
+                    <div class="icon">&#xe60a;</div>
+                    <div class="title">距开始仅剩</div>
+                    <div class="timer">
+                        <em id="day">00</em><i>:</i>
+                        <em id="hour">00</em><i>:</i>
+                        <em id="minute">00</em><i>:</i>
+                        <em id="second">00</em>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="blank20"></div>
+                <div id="warp_content">
+                    <h2>银牌自助美食中心100元代金券</h2>
+                    <!-- <h3>价值100元的代金券1张，全场通用，可叠加使用3张。</h3> -->
+                    <h3>仅售89元！价值100元的代金券1张，全场通用，可叠加使用3张。</h3>
+                    <span class="price"><em>￥</em><i>38.9</i></span>
+                    <span class="price-old">市场价：￥100</span>
+                </div>
+                <div class="blank20"></div>
+            </div>
+
+            <div class="detail" style="margin-top:3%;">
+                <div id="warp_content">
+                    <ul class="relevant">
+                        <li><span class="icon">&#xe60c;</span>快递：<em>6.00</em></li>
+                        <li><span class="icon">&#xe610;</span>已售：<em>100</em></li>
+                    </ul>
+                    <div id="line"></div>
+                    <ul class="relevant">
+                        <li><span class="icon">&#xe60d;</span>24小时内发货</li>
+                        <li><span class="icon">&#xe60d;</span>100%正品保证</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="blank20"></div>
+            <div class="detail">
+                <h1>商家地址</h1>
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <h2>大娘水饺（常州太湖东路世茂香槟湖水饺店）</h2>
+                            <div class="address">常州市新北区太湖东路9-1号</div>
+                            <div class="distance"><span class="icon">&#xe609;</span> 66m</div>
+                        </div>
+                        <div class="right">
+                            <a href="" class="icon">&#xe60b;</a>
+                        </div>
+                        
+                    </li>
+                </ul>
+                <div id="warp_content">
+                    <div id="line"></div>
+                    <div class="moreShops">
+                        <a href="coupons_shop.html">查看全部10家分店<span class="icon">&#xe60e;</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blank20"></div>
+            <div class="detail">
+                <h1>商品详情</h1>
+                <div id="warp_content">
+                    <div class="content">
+                    1.本卡可以累计使用。<br>
+                    2.本卡可以在哈根达斯全国各门店购买指定商品，全国各机场店恕不接受。<br>
+                    3.持本卡消费，专卖店不提供发票，以收银条作为消费凭证；<br>
+                    4.本卡仅限提领哈根达斯冰淇淋产品，不得用于换取月饼冰淇淋、臻爱礼盒。<br>
+                    5.使用本卡不找零，不可与其他折扣、优惠同时使用；<br>
+                    6.本卡内金额用完为即止，不可充值，不可挂失，请妥善保管，遗失不补。
+                    <img src="images/banner.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="blank20"></div>
+            <section class="coupons-list">
+                <div class="other-title">
+                    <h4>看了本商品的用户还看了</h4>
+                </div>
+                <!-- <div class="no-result">暂未搜索到符合条件的五折券</div> -->
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>1000</i></span>
+                                <span class="price-old">￥1890</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>100</i></span>
+                                <span class="price-old">￥198</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>9.9</i></span>
+                                <span class="price-old">￥22</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>66</i></span>
+                                <span class="price-old">￥135</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>32</i></span>
+                                <span class="price-old">￥70</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>440</i></span>
+                                <span class="price-old">￥888</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="javascript:addToCart()" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="add-cart">
+                <a href="javascript:subNum();" class="sub">-</a>
+                <input type="number" id="proNum" value="1">
+                <a href="javascript:addNum()" class="add">+</a>
+                <!-- 
+                <a href="javascript:" class="buyBtn">立即购买</a>
+                <a href="javascript:addToCart()" class="addBtn">加入购物车</a>
+                -->
+                <a href="javascript:void(0)" class="noBuyBtn">即将开始</a>
+                <!-- <a href="javascript:void(0)" class="noBuyBtn">已下架</a> -->
+            </div>
+
+            <div id="hlxAlert"></div>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+    </body>
+</html>
+
+<script type="text/javascript">
+var grabTime;
+var status = 0; //状态 0:未开始  1:一开始 -1:已结束
+$(document).ready(function(){
+    initFontSize();
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+
+    $("#proNum").bind("keyup",function(){
+        var proNum = $(this).val();
+        if(proNum <= 1) {
+            $(this).val(1);
+        } else if(proNum >= 99) {
+            $(this).val(99);
+        }
+    });
+
+    grabTime = setInterval("getGrabTime('2015/12/16 18:11:00')",1000);
+
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//减
+function subNum(){
+    var proNum = $("#proNum").val();
+    if((proNum--) > 1) {
+        $("#proNum").val(proNum);
+    } else {
+        $("#proNum").val(1);
+    }
+}
+
+//加
+function addNum(){
+    var proNum = $("#proNum").val();
+    if((proNum++) < 99) {
+        $("#proNum").val(proNum);
+    } else {
+        $("#proNum").val(99);
+    }
+}
+
+//加入购物车
+function addToCart(){
+    $("#hlxAlert").html("成功加入购物车");
+    $("#hlxAlert").fadeIn(300);
+    setTimeout(function(){$("#hlxAlert").fadeOut(300)},1000)
+}
+
+//更新时间
+function getGrabTime(EndTime){
+    var EndTime= new Date(EndTime); //截止时间
+    var NowTime = new Date();
+    var t =EndTime.getTime() - NowTime.getTime();
+    var d=Math.floor(t/1000/60/60/24);
+    var h=Math.floor(t/1000/60/60%24);
+    var m=Math.floor(t/1000/60%60);
+    var s=Math.floor(t/1000%60);
+
+    if(d<0) { d = 0;}
+    if(h<0) { h = 0; }
+    if(m<0) { m = 0; }
+    if(s<0) { s = 0; }
+
+    if(d<10) { d = "0"+d;}
+    if(h<10) { h = "0"+h; }
+    if(m<10) { m = "0"+m; }
+    if(s<10) { s = "0"+s; }
+
+
+
+    $("#day").html(d);
+    $("#hour").html(h);
+    $("#minute").html(m);
+    $("#second").html(s);
+
+    if(t<1000) {
+        clearInterval(grabTime);
+        if(status == 0) {
+            //未开始 更新状态为  已开始  并计算 活动结束时间
+            status = 1;
+            $(".time-end .title").html("距结束仅剩");
+            $(".add-cart .noBuyBtn").remove();
+            $(".add-cart").append("<a href=\"javascript:\" class=\"buyBtn\">立即购买</a><a href=\"javascript:addToCart()\" class=\"addBtn\">加入购物车</a>");
+            $(".time-tool").removeClass("time-tool").addClass("time-tool-start");
+            grabTime = setInterval("getGrabTime('2015/12/18 18:11:30')");
+        } else if(status == 1) {
+            status = 2;
+            $(".time-end .title").html("下场尽请期待");
+            $(".add-cart .buyBtn").remove();
+            $(".add-cart .addBtn").remove();
+            $(".add-cart").append("<a href=\"javascript:\" class=\"noBuyBtn\">已下架</a>");
+            $(".time-tool-start").removeClass("time-tool-start").addClass("time-tool-next");
+            grabTime = setInterval("getGrabTime('2015/12/20 18:11:30')");
+        } else if(status == 2) {
+            status = 3;
+            $(".time-end .title").html("活动已结束");
+            $(".add-cart .buyBtn").remove();
+            $(".add-cart .addBtn").remove();
+            $(".add-cart").append("<a href=\"javascript:\" class=\"noBuyBtn\">已下架</a>");
+        }
+
+    }
+}
+
+
+//回顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

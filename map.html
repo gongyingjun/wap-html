@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>地图详情</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/common.css" />
+		<link rel="stylesheet" href="style/index.css" />
+	</head>
+
+	<body>
+		<div class="title_bar">
+			<a href="" class="icon icon-arrow-left fl"></a>
+			<span class="title">化龙巷美食</span>
+			<a href="" class="icon icon-search fr with-text">搜索</a>
+			<a href="" class="icon icon-person fr with-text">我的</a>
+		</div>
+		<sction>
+			<div class="map" id="map" style="height:350px">
+				
+			</div>
+	        <div class="pay_info map-info">
+	            <ul>
+	                <li class="clearfix">
+	                    <span class="fl tubiao"><span class="icon icon-local"></span>新北区 万达广场  通江中路88号</span>
+	                </li>
+	                <li class="clearfix">
+	                    <span class="fl tubiao mui-ellipsis-2"><span class="icon icon-car"></span>乘坐B1路至通江路太湖东路下，46路、47路到太湖明珠苑下</span>
+	                </li>
+	            </ul>
+	        </div> 		
+		</sction>
+		
+
+		<footer>
+			<a href="">登录</a><a href="">注册</a>
+			<ul>
+				<li><a href="">首页</a>|</li>
+				<li><a href="">订单</a>|</li>
+				<li><a href="">客户端</a>|</li>
+				<li><a href="">帮助</a></li>
+			</ul>
+			<p>©2014 化龙巷 苏ICP备06048007号</p>
+		</footer>
+		<div class="gototop icon icon-goto-top">
+			
+		</div>
+		<script src="js/zepto.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=415167759dc5861ddbbd14154f760c7e&v=1.0"></script>
+		<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("map");
+	map.centerAndZoom(new BMap.Point(116.384, 39.925), 14);
+
+	map.addControl(new BMap.ZoomControl());  //添加地图缩放控件
+	var marker1 = new BMap.Marker(new BMap.Point(116.384, 39.925));  //创建标注
+	map.addOverlay(marker1);  
+	map.setZoom(17); 
+
+	var infoWindow1 = new BMap.InfoWindow("普通标注");
+	marker1.addEventListener("click", function(){this.openInfoWindow(infoWindow1);});
+	</script>
+	</body>
+</html>

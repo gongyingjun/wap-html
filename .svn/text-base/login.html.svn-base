@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>登录页面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/css" rel="stylesheet" href="style/common.css"/>
+    <link type="text/css" rel="stylesheet" href="style/index.css" />
+</head>
+<body>
+    <div class="title_bar">
+        <a href="" class="icon icon-arrow-left fl"></a>
+        <span class="title">登录</span>
+        <a href="" class="icon icon-search fr with-text">搜索</a>
+        <a href="" class="icon icon-person fr with-text">我的</a>
+    </div>
+    <section>
+        <form>
+            <div class="box_t gc3">化龙巷帐号登录</div>
+            <div class="pay_info binding_phone">
+                <ul>
+                    <li class="clearfix">
+                        <input type="text" value="" placeholder="帐户名" class="ver_code" >
+                    </li>
+                    <li class="clearfix">
+                        <input type="password" value="" placeholder="请输入您的密码" class="ver_code" >
+                    </li>
+                </ul>
+            </div>
+            <div class="blank10"></div>
+            <div class="form_btn">
+                <input type="submit" class="login_btn btn bg_green" value="登录">
+            </div>
+            <div class="blank10"></div>
+        </form>
+        <div class="p10 fs14">
+            <a href="" class="fl color_green">立即注册</a>
+            <a href="" class="fr color_green">找回密码</a>
+            <div class="blank10"></div>
+            <!--fieldset class="fs14">
+                <legend>其他账号登录</legend>
+            </fieldset>
+            <div class="blank10"></div>
+            <div class="other_login">
+                <a href=""><img src="images/qq.png"> </a>
+                <a href=""><img src="images/weibo.png"> </a>
+            </div>
+        </div>
+        <div class="blank10"></div-->
+
+    </section>
+    <footer>
+        <ul>
+            <li><a href="">首页</a>|</li>
+            <li><a href="">订单</a>|</li>
+            <li><a href="">客户端</a>|</li>
+            <li><a href="">帮助</a></li>
+        </ul>
+        <p>©2014 化龙巷 苏ICP备06048007号</p>
+    </footer>
+    <script src="js/zepto.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

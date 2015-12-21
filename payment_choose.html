@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <title>支付页面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/css" rel="stylesheet" href="style/common.css"/>
+    <link type="text/css" rel="stylesheet" href="style/index.css"/>
+</head>
+<body>
+    <header class="navbar">
+        <a class="react back" href=""><i class=""></i></a>
+        <h1 class="nav-header">确认订单</h1>
+        <div class="nav-wrap-right">
+            <a class="react" href="">
+                <span class="nav-btn"><i class="text-icon"></i>我的</span>
+            </a>
+            <a class="react" href="">
+                <span class="nav-btn"><i class="text-icon"></i>搜索</span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <form>
+            <div class="box_t gc3">化龙巷美食五折卡（年卡）</div>
+            <div class="pay_info">
+                <ul>
+                    <li class="clearfix">
+                        <span class="fl">购买数量：</span>
+                        <span class="fr">1</span>
+                    </li>
+                    <li class="clearfix">
+                        <span class="fl">商品单价：</span>
+                        <span class="fr">298元</span>
+                    </li>
+                    <li class="clearfix">
+                        <span class="fl">总额：</span>
+                        <span class="fr">298元</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="blank10"></div>
+            <div class="box_t gc3">支付方式</div>
+            <div class="pay_info">
+                <ul>
+                    <li class="pay_way">
+                        <label class="clearfix">
+                            <span class="fl"><img src="images/zfb.png">支付宝支付：</span>
+                            <span class="fr"><input type="radio" class="radio mt" name="1" value="1" checked="checked"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="blank10"></div>
+            <div class="form_btn">
+                <input type="submit" class="confirm_payment btn" value="去支付宝付款">
+            </div>
+            <div class="box_t gc3">支付方式</div>
+            <div class="pay_info">
+                <ul>
+                    <li class="pay_way">
+                        <label class="clearfix">
+                            <span class="fl"><img src="images/hma.png">Y码支付(带卡密的实体卡)</span>
+                            <span class="fr"><input type="radio" class="radio mt" name="1"value="0" checked="checked"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="box_t gc3">确认您的H码（在化龙巷美食五折卡背面）</div>
+            <div class="pay_info active_h">
+                <ul>
+                    <li class="clearfix">
+                        <input type="text" value="" placeholder="请输入卡号：" class="hkahao fl">
+                        <span class="fr error">您的H码已过期</span>
+                    </li>
+                    <li class="clearfix">
+                        <input type="text" value="" placeholder="请输入H码：" class="hma fl">
+                        <span class="fr error">您的H码已使用过</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="blank10"></div>
+            <div class="form_btn">
+                <input type="submit" class="confirm_payment btn" value="确认激活">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

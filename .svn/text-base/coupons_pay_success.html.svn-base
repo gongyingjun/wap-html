@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>支付完成</title>
+        <meta name="keywords" content="支付完成" />
+        <meta name="description" content="支付完成" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">支付完成</span>
+                </div>
+            </div>
+
+            <div class="pay-result">
+                <div class="left">
+                    <span class="icon">&#xe60d;</span>
+                </div>
+                <div class="right">
+                    <p>支付成功，我们会尽快安排发货！</p>
+                    <p>实付款：<i>￥</i><em>98.00</em></p>
+                </div>
+            </div>
+
+            <section class="address-list">
+                <ul class="lists">
+                    <li>
+                        <div class="left-only">
+                            <div class="info">
+                                <span class="link-name">收货人：<em>尤明珣</em> 15261113339</span>
+                            </div>
+                            <div class="content">
+                                收货地址：常州市新北区太湖东路9-1号常高新大厦15楼化龙巷（联系电话：15851962501）
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <a href="coupons_order_detail.html" class="order-detail">订单详情</a>
+                            <a href="coupons_grab.html" class="to-index">返回首页</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="buy-list">
+                <div class="other-title">
+                    <h4>买本商品的用户还买了</h4>
+                </div>
+                <!-- <div class="no-result">暂未搜索到符合条件的五折券</div> -->
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    initFontSize();
+
+    $(".pay-list li").click(function(){
+        $(".pay-list .icon").removeClass("ok");
+        $(this).find(".icon").addClass("ok");
+    })
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回到顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

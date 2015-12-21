@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>搜索-限时抢购</title>
+        <meta name="keywords" content="限时抢购" />
+        <meta name="description" content="限时抢购" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/swiper.min.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+        <script type="text/javascript" src="js/swiper.min.js?v=20151210"></script>
+    </head>
+    <style>
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        height: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    </style>
+    <body>
+        <div id="page">
+            <div id="mask"></div>
+            <section style="position:relative; z-index:999; background:#f5f5f5">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">限时抢购</span>
+                </div>
+                <a href=""><span class="cart icon">&#xe600;<br><s>购物车</s></span></a>
+            </div>
+
+            <div class="search">
+                <input type="text" class="search-input" placeholder="请输入五折券名称">
+                <a href="" class="search-btn">搜索</a>
+            </div>
+
+            <div class="table-header">
+                <ul class="menu">
+                    <li>排序<s class="icon">&#xe605;</s></li>
+                    <li>分类<s class="icon">&#xe605;</s></li>
+                    <li>区域<s class="icon">&#xe605;</s></li>
+                    <li>更多<s class="icon">&#xe605;</s></li>
+                </ul>
+                <ul class="menu-list">
+                    <li class="active chooseLi"><span>默认</span><span class="icon">&#xe606;</span></li>
+                    <li class="chooseLi"><span>销量从高到低</span></li>
+                    <li class="chooseLi"><span>价格从低到高</span></li>
+                    <li class="chooseLi"><span>价格从高到低</span></li>
+                    <li class="chooseLi"><span>最新发布</span></li>
+                </ul>
+                <ul class="menu-list">
+                    <li class="active chooseLi"><span>全部</span><span class="icon">&#xe606;</span></li>
+                    <li class="chooseLi"><span>火锅</span></li>
+                    <li class="chooseLi"><span>自助餐</span></li>
+                    <li class="chooseLi"><span>饮料甜品</span></li>
+                    <li class="chooseLi"><span>大酒店</span></li>
+                </ul>
+                <div class="menu-list">
+                    <div class="left">
+                        <ul class="area-menu">
+                            <li class="active">新北区<span class="icon">&#xe60a;</span></li>
+                            <li>天宁区</li>
+                            <li>武进区</li>
+                            <li>钟楼区</li>
+                            <li>戚墅堰区</li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul class="menu-child">
+                                        <li class="active"><span>1龙虎塘街道</span><span class="icon">&#xe606;</span></li>
+                                        <li><span>2三井街道</span></li>
+                                        <li><span>3龙虎塘街道</span></li>
+                                        <li><span>4三井街道</span></li>
+                                        <li><span>5三井街道</span></li>
+                                        <li><span>6三井街道</span></li>
+                                        <li><span>7三井街道</span></li>
+                                        <li><span>8三井街道</span></li>
+                                        <li><span>9三井街道</span></li>
+                                    </ul>
+                                    <ul class="menu-child">
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                    </ul>
+                                    <ul class="menu-child">
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                    </ul>
+                                    <ul class="menu-child">
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                    </ul>
+                                    <ul class="menu-child">
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>龙虎塘街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                        <li><span>三井街道</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Add Scroll Bar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu-more-list">
+                    <li>商品类型</li>
+                    <li class="active coupons-choose"><span>代金券</span></li>
+                    <li class="coupons-choose"><span>抵用券</span></li>
+                    <li class="coupons-choose"><span>抵用券</span></li>
+                    <li class="coupons-choose"><span>抵用券</span></li>
+                    <li class="coupons-choose"><span>抵用券</span></li>
+                    <li class="coupons-choose"><span>抵用券</span></li>
+                </ul>
+            </div>
+            </section>
+            <section class="coupons-list">
+                <div class="result">共有 <em>417</em> 个五折券</div>
+                <!-- <div class="no-result">暂未搜索到符合条件的五折券</div> -->
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>1000</i></span>
+                                <span class="price-old">￥1890</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>100</i></span>
+                                <span class="price-old">￥198</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>9.9</i></span>
+                                <span class="price-old">￥22</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>66</i></span>
+                                <span class="price-old">￥135</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>32</i></span>
+                                <span class="price-old">￥70</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>440</i></span>
+                                <span class="price-old">￥888</span>
+                                </p>
+                                <p class="p2">
+                                <span class="sale-result">已售 <em>100</em> 件</span>
+                                <a href="" class="addCart-btn">加入购物车</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="pages">
+                    <a href="" class="prevPage">上一页</a>
+                    <span>2/18</span>
+                    <a href="" class="nextPage">下一页</a>
+                </div>
+            </section>
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+var swiper;
+
+
+$(document).ready(function(){
+    initFontSize();
+
+    swiper = new Swiper('.swiper-container', {
+        scrollbar: '.swiper-scrollbar',
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        mousewheelControl: true,
+        freeMode: true
+    });
+
+    //蒙层点击事件
+    $("#mask").click(function(){
+        $(".menu-child").hide();
+        $(".menu-list").hide();
+        $(".menu-more-list").hide();
+        $(this).hide();
+        $(".menu li").removeClass("active");
+        $(".menu li").find(".icon").html("&#xe605;");
+        $("body").css({"overflow":"auto", "height":"auto"})
+    });
+
+    //菜单点击事件
+    $(".menu li").click(function(){
+        var index = $(this).index(".menu li");
+        var className = $(this).attr("class");
+        $(".menu li").removeClass("active");
+        $(".menu-list").hide();
+        $(".menu li").find(".icon").html("&#xe605;");
+        if(className == "active") {
+            //收缩
+            $(this).find(".icon").html("&#xe605;");
+            $(".menu-list:eq("+index+")").hide();
+            $("#mask").hide();
+        } else {
+            //展开
+            $(this).addClass("active");
+            $(this).find(".icon").html("&#xe604;");
+            $(".menu-list:eq("+index+")").show();
+            $("#mask").show();
+            $("body").css({"overflow":"hidden", "height":"100%"})
+        }
+
+        if(index==2) {
+            var childIndex = $(".area-menu .active").index(".area-menu li");
+            var height = $(".area-menu").height();
+            // console.log(height);
+            $(".swiper-wrapper").css("height",height);
+            // console.log(childIndex);
+            $(".menu-child:eq("+childIndex+")").show();
+            // swiper.slideTo(0,0);
+            swiper.updateContainerSize();
+            swiper.updateSlidesSize();
+            swiper.updatePagination();
+        } else if(index == 3) {
+            $(".menu-more-list").show();
+        }
+        // console.log(index);
+    });
+    
+    //选择 排序， 分类
+    $(".menu-list .chooseLi").click(function(){
+        var index = $(this).index(".menu-list li");
+        var parent = $(this).parent();
+        $(parent).find("li").removeClass("active");
+        $(parent).find("li .icon").remove();
+
+        $(this).append("<span class='icon'>&#xe606</span>");
+        $(this).addClass("active");
+        $("#mask").click();
+    });
+
+    // 选择 街道
+    $(".menu-child li").click(function(){
+        var index = $(this).index(".menu-child li");
+        $(".menu-child li").removeClass("active");
+        $(".menu-child li .icon").remove();
+
+        $(this).append("<span class='icon'>&#xe606</span>");
+        $(this).addClass("active");
+        $("#mask").click();
+    });
+
+    //选择 地区
+    $(".area-menu li").click(function(){
+        var index = $(this).index(".area-menu li");
+        $(".menu-child").hide();
+        $(".menu-child:eq("+index+")").show();
+        $(".area-menu li .icon").remove();
+        $(".area-menu li").removeClass("active");
+        $(this).addClass("active");
+        $(this).append("<span class='icon'>&#xe60a;</span>");
+
+        swiper.updateContainerSize();
+        swiper.updateSlidesSize();
+        swiper.updatePagination();
+    });
+
+    //选择 更多
+    $(".menu-more-list .coupons-choose").click(function(){
+        $(".menu-more-list .coupons-choose").removeClass("active");
+        $(this).addClass("active");
+        $("#mask").click();
+    });
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+
+</script>

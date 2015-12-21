@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>预告-限时抢购</title>
+        <meta name="keywords" content="预告-限时抢购" />
+        <meta name="description" content="预告-限时抢购" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">预告-限时抢购</span>
+                </div>
+                <a href="coupons_cart.html"><span class="cart icon">&#xe600;<br><s>购物车</s></span></a>
+            </div>
+
+            <section class="coupons-list">
+                <div class="title">五折券 预告-限时抢购</div>
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>1000</i></span>
+                                <span class="price-old">￥1890</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>100</i></span>
+                                <span class="price-old">￥198</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>9.9</i></span>
+                                <span class="price-old">￥22</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>66</i></span>
+                                <span class="price-old">￥135</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>32</i></span>
+                                <span class="price-old">￥70</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <div>
+                                <p class="p1">
+                                <span class="price"><em>￥</em><i>440</i></span>
+                                <span class="price-old">￥888</span>
+                                </p>
+                                <p class="p2">
+                                <span class="timer-grab">10-25 12:00:00 开抢</span>
+                                <a href="coupons_detail.html" class="grab-notice-btn">抢先看看</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    initFontSize();
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

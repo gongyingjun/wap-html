@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>查看物流</title>
+        <meta name="keywords" content="查看物流" />
+        <meta name="description" content="查看物流" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">查看物流</span>
+                </div>
+            </div>
+
+            <section class="express-info">
+                <p>物流状态：<em>运输中</em></p>
+                <p>物流公司：圆通快递</p>
+                <p>物流单号：14785415556962</p>
+                <p>官方电话：<a href="tel:95546">95546</a></p>
+            </section>
+            <div class="blank20"></div>
+            <section class="express-list">
+                <div class="title">物流跟踪</div>
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="right">
+                            <p>【扬州市】 已签收，签收人是本人，感谢使用申通快递，期待再次为您服务</p>
+                            <p class="date">
+                                2015年12月4日 上午 11:51:32
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="left">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="right">
+                            <p>【江苏省常州市新区一部公司】 派件人：程曦 派件中 派件人电话 <a href="tel:15161111134">15161111134</a></p>
+                            <p class="date">
+                                2015年12月4日 上午 11:51:32
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="left">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="right">
+                            <p>【江苏省常州市新区一部公司】 已收入</p>
+                            <p class="date">
+                                2015年12月4日 上午 11:51:32
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="left">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="right">
+                            <p>【江苏省常州公司】已发出 下一站 【江苏省常州市新区一部公司】</p>
+                            <p class="date">
+                                2015年12月4日 上午 11:51:32
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="left">
+                            <span class="circle"></span>
+                        </div>
+                        <div class="right">
+                            <p>【江苏省常州公司】已收入</p>
+                            <p class="date">
+                                2015年12月4日 上午 11:51:32
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="buy-list">
+                <div class="other-title">
+                    <h4>买本商品的用户还买了</h4>
+                </div>
+                <!-- <div class="no-result">暂未搜索到符合条件的五折券</div> -->
+                <ul class="lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>银牌自助美食中心100元代金券</h2>
+                            <span class="price"><em>￥</em><i>1000</i></span>
+                            <span class="sale-result">已售 <em>100</em> 件</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    initFontSize();
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+    var i = 1;
+    $(".express-list .lists li").each(function(){
+        if(i < $(".express-list .lists li").length) {
+            $(this).find(".left").css("height",$(this).find(".right").outerHeight());
+        }
+        i++;
+    });
+
+    if(i==2) {
+        $(".express-list .lists .left").removeClass("left").addClass("left2");
+        $(".express-list .lists .right").removeClass("right").addClass("right2");
+    }
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回到顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

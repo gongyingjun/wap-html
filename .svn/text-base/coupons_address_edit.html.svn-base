@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>修改收货地址</title>
+        <meta name="keywords" content="修改收货地址" />
+        <meta name="description" content="修改收货地址" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">修改收货地址</span>
+                </div>
+                <a href="coupons_address_add.html"><span class="right">新增</span></a>
+            </div>
+            <section class="address-form">
+                <ul>
+                    <li>
+                        <div class="left">收货人</div>
+                        <div class="right">
+                            <input type="text" value="尤明珣" maxlength="10">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">手机号码</div>
+                        <div class="right">
+                            <input type="number" value="15236951232" maxlength="11">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">所在地区</div>
+                        <div class="right">
+                            <select>
+                                <option value="新北区">新北区</option>
+                                <option value="钟楼区">钟楼区</option>
+                                <option value="天宁区">天宁区</option>
+                                <option value="武进区">武进区</option>
+                                <option value="戚墅堰区">戚墅堰区</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">街道</div>
+                        <div class="right">
+                            <select>
+                                <option value="河海街道">河海街道</option>
+                                <option value="钟楼区">钟楼区</option>
+                                <option value="天宁区">天宁区</option>
+                                <option value="武进区">武进区</option>
+                                <option value="戚墅堰区">戚墅堰区</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">详细地址</div>
+                        <div class="right">
+                            <input type="text" value="太湖东路9-1号常高新大厦18楼" maxlength="30">
+                        </div>
+                    </li>
+                </ul>
+                <div class="btns">
+                    <a href="coupons_order_address.html" class="del-btn">删除地址</a>
+                    <a href="coupons_order_address.html" class="set-btn">设为默认</a>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    initFontSize();
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回到顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

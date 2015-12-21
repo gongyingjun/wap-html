@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+<head>
+    <title>日历选餐</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/css" rel="stylesheet" href="style/common.css"/>
+    <link type="text/css" rel="stylesheet" href="style/index.css" />
+</head>
+<body>
+    <div class="title_bar">
+        <a href="" class="icon icon-arrow-left fl"></a>
+        <span class="title">日历选餐</span>
+        <a href="" class="icon icon-search fr with-text">搜索</a>
+        <a href="" class="icon icon-person fr with-text">我的</a>
+    </div>
+    <section>
+        <div class="" id="calendar" data-date="2015-3-8">
+            <table class="calendar" border="0" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr class="calendar_title">
+                        <th><span class="icon icon-arrow-left calendar_btn" data-id="calendar_up"></span></th>
+                        <th colspan="5"><span class="gc3 calendar_title_con">2015年1月</span></th>
+                        <th><span class="icon icon-arrow-right calendar_btn" data-id="calendar_down"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="calendar_week">
+                        <td class="calendar_sunday">周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td class="calendar_sunday">周六</td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_other_month calendar_sunday">
+                            <a>
+                                <span>28</span>
+                                <span>初七</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>29</span>
+                                <span>初八</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>30</span>
+                                <span>初九</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>31</span>
+                                <span>初十</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a class="past_due">
+                                <span>1</span>
+                                <span>元旦</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>2</span>
+                                <span>十二</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>3</span>
+                                <span>十三</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>4</span>
+                                <span>十四</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>5</span>
+                                <span>十五</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>6</span>
+                                <span>小寒</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>7</span>
+                                <span>十七</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>8</span>
+                                <span>十八</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>9</span>
+                                <span>十九</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>10</span>
+                                <span>廿</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>11</span>
+                                <span>廿一</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>12</span>
+                                <span>廿二</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>13</span>
+                                <span>廿三</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>14</span>
+                                <span>廿四</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>15</span>
+                                <span>廿五</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>16</span>
+                                <span>廿六</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>17</span>
+                                <span>廿七</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>18</span>
+                                <span>廿八</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>19</span>
+                                <span>廿九</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>20</span>
+                                <span>大寒</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>21</span>
+                                <span>初二</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>22</span>
+                                <span>初三</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>23</span>
+                                <span>初四</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>24</span>
+                                <span>初五</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_sunday">
+                            <a>
+                                <span>25</span>
+                                <span>初六</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>26</span>
+                                <span>初七</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>27</span>
+                                <span>腊八节</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_selected">
+                            <a>
+                                <span>28</span>
+                                <span>初九</span>
+                                <em>4</em>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>29</span>
+                                <span>初十</span>
+                                <em>5</em>
+                            </a>
+                        </td>
+                        <td class="calendar_day">
+                            <a>
+                                <span>30</span>
+                                <span>十一</span>
+                                <em>71</em>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_selected calendar_sunday">
+                            <a href="">
+                                <span>31</span>
+                                <span>十二</span>
+                                <em>8</em>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="calendar_date">
+                        <td class="calendar_day calendar_other_month calendar_sunday">
+                            <a>
+                                <span>1</span>
+                                <span>十三</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>2</span>
+                                <span>十四</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>3</span>
+                                <span>十五</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>4</span>
+                                <span>立春</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>5</span>
+                                <span>十七</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month">
+                            <a>
+                                <span>6</span>
+                                <span>十八</span>
+                            </a>
+                        </td>
+                        <td class="calendar_day calendar_other_month calendar_sunday">
+                            <a>
+                                <span>7</span>
+                                <span>十九</span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="blank10"></div>
+        <div class="gb_list border_t">
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list wzk_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/4.jpg"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span></p>
+                        <p class="newsEvaluate clearfix">
+                            <span class="btn_h20 bg_blue p8">今日五折</span>
+                            <span class="use_num color_o fr">100人使用</span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl">自助晚餐，享受买一送一</span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>                                                               
+        </div>    
+    </section>
+    <footer>
+        <a href="">登录</a><a href="">注册</a>
+        <ul>
+            <li><a href="">首页</a>|</li>
+            <li><a href="">订单</a>|</li>
+            <li><a href="">客户端</a>|</li>
+            <li><a href="">帮助</a></li>
+        </ul>
+        <p>©2014 化龙巷 苏ICP备06048007号</p>
+    </footer>
+</body>
+<script src="js/zepto.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/GetCNDate.js"></script>
+</html>

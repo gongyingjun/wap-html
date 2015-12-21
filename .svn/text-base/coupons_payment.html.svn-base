@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>在线支付</title>
+        <meta name="keywords" content="在线支付" />
+        <meta name="description" content="在线支付" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">在线支付</span>
+                </div>
+            </div>
+
+            <div class="order-price">
+                <span class="left">订单总价：</span>
+                <span class="right">￥98.00</span>
+            </div>
+
+            <ul class="pay-list">
+                <li>
+                    <div class="left">
+                        <img src="images/zhifubao.png" alt="支付宝">
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <h1>支付宝</h1>
+                            <p>推荐已安装支付宝客户端的用户使用</p>
+                        </div>
+                        <div class="icon">&#xe607;</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <img src="images/weixin.png" alt="微信">
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <h1>微信支付</h1>
+                            <p>推荐已安装微信5.0及以上版本的用户使用</p>
+                        </div>
+                        <div class="icon ok">&#xe607;</div>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="warp_content">
+                <a href="coupons_pay_success.html" class="pay-submit">确认支付</a>
+            </div>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    initFontSize();
+
+    $(".pay-list li").click(function(){
+        $(".pay-list .icon").removeClass("ok");
+        $(this).find(".icon").addClass("ok");
+    })
+});
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回到顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>

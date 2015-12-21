@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+    <title>找美食</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/css" rel="stylesheet" href="style/common.css"/>
+    <link type="text/css" rel="stylesheet" href="style/index.css" />
+</head>
+<body>
+    <div class="title_bar">
+        <a href="" class="icon icon-arrow-left fl"></a>
+        <span class="title">找美食</span>
+        <a href="" class="icon icon-search fr with-text">搜索</a>
+        <a href="" class="icon icon-person fr with-text">我的</a>
+    </div>
+    <div class="droplist-box find_restaurant">
+        <span class="">分类<span class="icon icon-arrow-fill-down"></span></span>
+        <span class="">区域<span class="icon icon-arrow-fill-down"></span></span>
+        <span class="">默认排序<span class="icon icon-arrow-fill-up"></span></span>
+        <ul >
+            <li><a href="">分类1</a></li>
+            <li><a href="">分类2</a></li>
+            <li><a href="">分类3</a></li>
+            <li><a href="">分类4</a></li>
+        </ul>
+        <ul id="area">
+            <li><a href="" data-direct = "true">全城</a></li>
+            <li class="active">
+			 <a href="">钟楼区</a>
+                <ul>
+                    <li><a href="">全城</a></li>
+                    <li><a href="">莱蒙都会</a></li>
+                    <li><a href="">五月国际广场</a></li>
+                    <li><a href="">南大街</a></li>
+                    <li><a href="">北大街</a></li>
+                    <li><a href="">广化街</a></li>
+                    <li><a href="">清潭</a></li>
+                    <li><a href="">路桥</a></li>
+                    <li><a href="">全城</a></li>
+                    <li><a href="">莱蒙都会</a></li>
+                    <li><a href="">五月国际广场</a></li>
+                    <li><a href="">南大街</a></li>
+                    <li><a href="">北大街</a></li>
+                    <li><a href="">广化街</a></li>
+                    <li><a href="">清潭</a></li>
+                    <li><a href="">路桥</a></li>
+                    <li><a href="">全城</a></li>
+                    <li><a href="">莱蒙都会</a></li>
+                    <li><a href="">五月国际广场</a></li>
+                    <li><a href="">南大街</a></li>
+                    <li><a href="">北大街</a></li>
+                    <li><a href="">广化街</a></li>
+                    <li><a href="">清潭</a></li>
+                    <li><a href="">路桥</a></li>
+                </ul>
+            </li>
+            <li> <a href="">天宁区</a>
+			    <ul>
+                    <li><a href="">全城2</a></li>
+                    <li><a href="">莱蒙3都会</a></li>
+                    <li><a href="">五月国4际广场</a></li>
+                    <li><a href="">南大街5</a></li>
+                    <li><a href="">北大5街</a></li>
+                    <li><a href="">广化街6</a></li>
+                    <li><a href="">清7潭</a></li>
+                    <li><a href="">路桥9</a></li>
+                </ul>
+			</li>
+            <li> <a href="">武进区</a></li>
+            <li> <a href="">新北区</a></li>
+            <li> <a href="">溧阳市</a></li>
+            <li> <a href="">金坛市</a></li>
+            <li> <a href="">戚墅堰区</a></li>
+        </ul>
+        <ul style="display: none;">
+            <li><a href="">默认排序</a></li>
+            <li><a href="http://t.food.hualongxiang.com/waplist?lan=" id="coordinate">离我最近</a></li>
+            <li><a href="">最新发布</a></li>
+            <li><a href="">人气最高</a></li>
+        </ul>
+        <div class="layer-overall"></div>
+    </div>
+    <section>
+        <div class="restaurant_list border_b clearfix">
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅1</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w1">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">100m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w2">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w3">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w4">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w5">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w1">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w1">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="dl_list clearfix">
+                <dt><a href="" class="newPic"><img src="images/140x140.png"></a></dt>
+                <dd>
+                    <a href="">
+                        <p class="newsTitle"><span>多伦多海鲜自助餐厅</span><em class="ka ml5">卡</em></p>
+                        <p class="newsEvaluate clearfix">
+                            <em class="outerStar"><i class="innerStar w1">&nbsp;</i></em>
+                            <span class="unit_price gc3">人均：106元 </span>
+                        </p>
+                        <p class="newsLabel clearfix">
+                            <span class="fl mr10">自助餐</span>
+                            <span class="fl">新北万达</span>
+                            <span class="fr"><em class="dis" data-lat="31.802627700326" data-lng="119.9487836978">0m</em></span>
+                        </p>
+                    </a>
+                </dd>
+            </dl>
+        </div>
+        <div class="pager">
+            <a href="" class="disabled">上一页</a>
+            <span>1</span>
+            <a href="">下一页</a>
+        </div>
+    </section>
+    <footer>
+        <a href="">登录</a><a href="">注册</a>
+        <ul>
+            <li><a href="">首页</a>|</li>
+            <li><a href="">订单</a>|</li>
+            <li><a href="">客户端</a>|</li>
+            <li><a href="">帮助</a></li>
+        </ul>
+        <p>©2014 化龙巷 苏ICP备06048007号</p>
+    </footer>
+		<script src="js/zepto.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/distance.js"></script>
+</body>
+</html>

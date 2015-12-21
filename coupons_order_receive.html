@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <title>我的订单</title>
+        <meta name="keywords" content="我的订单" />
+        <meta name="description" content="我的订单" />
+        <!-- 删除默认的苹果工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application"/>
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app" />
+        <!-- 禁止用户缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+        <!-- 禁止自动识别电话号码 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- 禁止自动识别邮箱 -->
+        <meta name="format-detection" content="email=no">
+        <!-- 引用相关样式表 -->
+        <link rel="stylesheet" type="text/css" href="style/h5-common.css?v=20151210" />
+        <link rel="stylesheet" type="text/css" href="style/coupons.css?v=20151210" />
+        <!-- 引用相关JS -->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js?v=20151210"></script>
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <a href="javascript:history.back()"><span class="back icon">&#xe602;</span></a>
+                <div class="content">
+                    <span class="title">我的订单</span>
+                </div>
+            </div>
+
+            <section class="order-menu">
+                <ul class="lists">
+                    <li><a href="coupons_order_all.html">所有订单</a></li>
+                    <li><a href="coupons_order_pay.html">待支付</a></li>
+                    <li><a href="coupons_order_send.html">待发货</a></li>
+                    <li><a href="coupons_order_receive.html" class="active">待收货</a></li>
+                </ul>
+            </section>
+
+            <section class="order-list mt-1">
+                <div class="order-info">
+                    <span class="order-time">下单时间：2015-11-11 12:00:00</span>
+                    <span class="order-status">待收货</span>
+                </div>
+                <ul class="pro-lists">
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>大娘水饺（常州太湖东路世茂香槟湖水饺店）</h2>
+                            <p class="p1">
+                                <span class="price"><em>￥</em><i class="pro-price">9338.6</i></span>
+                                <span class="price-old">￥100</span>
+                            </p>
+                        </div>
+                        <div class="num-right">
+                            x<em class="proNum">1</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>大娘水饺（常州太湖东路世茂香槟湖水饺店）大娘水饺（常州太湖东路世茂香槟湖水饺店）大娘水饺（常州太湖东路世茂香槟湖水饺店）</h2>
+                            <p class="p1">
+                                <span class="price"><em>￥</em><i class="pro-price">438.6</i></span>
+                                <span class="price-old">￥100</span>
+                            </p>
+                        </div>
+                        <div class="num-right">
+                            x<em class="proNum">2</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="images/pic.jpg" alt="银牌自助美食中心100元代金券">
+                        </div>
+                        <div class="right">
+                            <h2>大娘水饺（常州太湖东</h2>
+                            <p class="p1">
+                                <span class="price"><em>￥</em><i class="pro-price">338.6</i></span>
+                                <span class="price-old">￥100</span>
+                            </p>
+                        </div>
+                        <div class="num-right">
+                            x<em class="proNum">3</em>
+                        </div>
+                    </li>
+                </ul>
+                <div class="order-result">
+                    <span class="right">共2件商品 合计:<em>￥98.00</em> (含运费￥6.00)</span>
+                </div>
+                <div class="order-btns">
+                    <a href="" class="submit-btn">确认收货</a>
+                    <a href="" class="cancel-btn">查看物流</a>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="action">
+                    <a href="">注册</a>
+                    <a href="">登录</a>
+                    <a href="javascript:toTop();" class="toTop">回顶部<s class="icon">&#xe604;</s></a>
+                </div>
+                <div class="screen">
+                    <a href="" class="active">触屏版</a>
+                    <a href="">电脑版</a>
+                    <a href="">电脑版</a>
+                </div>
+                <div class="copyright">
+                    Copyright 2015 化龙巷婚嫁 版权所有
+                </div>
+            </section>
+        </div>    
+    </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    initFontSize();
+});
+
+function initFontSize(){
+    var clientWidth = document.body.clientWidth;
+    $("html").css("font-size",clientWidth/640*625+"%");
+    $("#page").css("display","block");
+}
+
+window.onresize = function(){
+    initFontSize();
+}
+
+//回到顶部
+function toTop(){
+    $("html,body").animate({scrollTop: '0px'}, 500);
+}
+</script>
